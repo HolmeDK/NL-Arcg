@@ -5,9 +5,9 @@ body {
 }
 
 #hackBlock {
-    border: solid max(.1vw, 1px) black;
+    border: solid max(.1vw, 1px) rgb(255, 255, 255);
     border-radius: 10px;
-    background-color: rgb(34,40,50);
+    background-color: rgb(14, 14, 14);
     width: max(97vw, 300px);
     height: auto;
     min-height: max(min(40vw, 90vh), 250px);
@@ -199,7 +199,7 @@ input[type=submit]:hover {
     width: 15.5vw;
     text-align: center;
     -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
     letter-spacing: .5px;
     transform: translateY(-50%);    
 }
