@@ -7,14 +7,14 @@ h1 {
 	margin-top: 1%;
 	font-size: max(3.6vw, 36px);
 	-webkit-text-stroke-width: max(.2vw,2px);
-    -webkit-text-stroke-color: rgb(27, 27, 27);
+    -webkit-text-stroke-color: rgb(251, 251, 251);
 }
 
 h3 {
 	margin: 1% 0 1% 0;
 	font-size: max(2vw, 20px);
 	-webkit-text-stroke-width: max(.1vw,1px);
-    -webkit-text-stroke-color: rgb(64, 64, 64)
+    -webkit-text-stroke-color: rgb(249, 249, 249)
 }
 
 hr {
@@ -24,11 +24,11 @@ hr {
 }
 
 #selection {
-	border: solid max(.1vw, 1px) rgb(255, 254, 254);
+	border: solid max(.1vw, 1px) rgb(32, 32, 32);
 	border-radius: 10px;
 	margin: auto;
 	margin-top: max(1%, 5px);
-	background-color: rgb(34,40,50);
+	background-color: rgb(2, 107, 142);
 	width: max(75%, 300px);
 	display: flex;
 	flex-flow: column;
@@ -47,8 +47,8 @@ hr {
 }
 
 input[type=submit] {
-	font-family: 'Bauhaus 93';
-	background-color: grey;
+	font-family: 'Arial';
+	background-color: rgb(10, 10, 10);
 	color: white;
 	font-size: max(1.5vw, 15px);
 	-webkit-text-stroke-width: max(.05vw,.5px);
@@ -79,7 +79,7 @@ input[type=submit]:hover {
 
 .repoLink:hover {
 	cursor: pointer;
-	color: rgb(0, 161, 254);
+	color: rgb(21, 169, 255);
 	-webkit-text-stroke-width: max(.01vw,.1px);
     -webkit-text-stroke-color: white;
 }
