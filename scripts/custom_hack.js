@@ -12,9 +12,9 @@ let digits = [];
 
 function puzzBlock(){
 
-	let colors = ['RØD', 'BLÅ', 'LILLA', 'GUL', 'ORANGE', 'GRØN', 'SORT', 'HVID']
-	let shapes = ['FIRKANT', 'REKTANGEL', 'TREKANT', 'CIRKEL']
-	let prompts = ['BAGGRUNDS FARVE', 'FORM', 'FORM FARVE', ' TEKST BAGGRUNDS FARVE', 'FARVE TEKST', 'FORM TEKST', 'NUMMER FARVE'];
+	let colors = ['RED', 'BLUE', 'PURPLE', 'YELLOW', 'ORANGE', 'GREEN', 'BLACK', 'WHITE']
+	let shapes = ['SQUARE', 'RECTANGLE', 'TRIANGLE', 'CIRCLE']
+	let prompts = ['BAGGRUNDS FARVE', 'FORM', 'FORM FARVE', ' TEKST BAGGRUNDS FARVE', 'FARVE TEKST', 'FORM TEKST', 'NUMMER'];
 	
 	let selectedColors = [];
 	while (selectedColors.length < 2) {
@@ -232,7 +232,7 @@ function startHack(){
 
 			function failHack(){
 				audio.pause();
-				setEnd('SYSTEM HACK FEJLET - Prøv igen');
+				setEnd('SYSTEM HACK FEJL');
 			}
 
 			let promptIndexes = [];
