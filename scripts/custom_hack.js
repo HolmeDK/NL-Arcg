@@ -138,7 +138,7 @@ function startHack(){
 	
 	container.innerHTML = '';
 	let warning = document.createElement('p');
-	warning.innerText = 'Er du klar?!';
+	warning.innerText = 'Gør dig klar!';
 	warning.className = 'middleText';
 	container.append(warning);
 	
@@ -221,7 +221,7 @@ function startHack(){
 				retryButton.className = 'retry';
 				retryButton.innerText = 'Retry';
 				retryForm.append(retryButton);
-				// let homeForm = document.createElement('form');
+				let homeForm = document.createElement('form');
 				// homeForm.setAttribute('action', 'index.html');
 				// container.append(homeForm);
 				// let homeButton = document.createElement('button');
@@ -232,12 +232,12 @@ function startHack(){
 
 			function failHack(){
 				audio.pause();
-				setEnd('SYSTEM DID NOT ACCEPT YOUR ANSWERS');
+				setEnd('SYSTEM HACK FEJL');
 			}
 
 			let promptIndexes = [];
 			let answers = [];
-			let questions = ['ENTER THE '];
+			let questions = ['Indtast'];
 
 			while (promptIndexes.length < promptCounter){
 				let randInd = Math.floor(Math.random()*blockCounter);
@@ -256,7 +256,7 @@ function startHack(){
 				correctAnswer = answers.join(' ');
 				if (input.toUpperCase() == correctAnswer) {
 					if (correct == roundCounter) {
-						setEnd('SYSTEM BYPASSED');
+						setEnd('SYSTEM ADGANG GODKENDT');
 					} else {
 						correct += 1;
 						ongoingHack();
