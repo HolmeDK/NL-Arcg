@@ -12,9 +12,9 @@ let digits = [];
 
 function puzzBlock(){
 
-	let colors = ['RED', 'BLUE', 'PURPLE', 'YELLOW', 'ORANGE', 'GREEN', 'BLACK', 'WHITE']
-	let shapes = ['SQUARE', 'RECTANGLE', 'TRIANGLE', 'CIRCLE']
-	let prompts = ['BACKGROUND COLOR', 'SHAPE', 'SHAPE COLOR', 'TEXT BACKGROUND COLOR', 'COLOR TEXT', 'SHAPE TEXT', 'NUMBER COLOR'];
+	let colors = ['RØD', 'BLÅ', 'LILLA', 'GUL', 'ORANGE', 'GRØN', 'SORT', 'HVID']
+	let shapes = ['FIRKANT', 'REKTANGEL', 'TREKANT', 'CIRKEL']
+	let prompts = ['BAGGRUNDS FARVE', 'FORM', 'FORM FARVE', ' TEKST BAGGRUNDS FARVE', 'FARVE TEKST', 'FORM TEKST', 'NUMMER FARVE'];
 	
 	let selectedColors = [];
 	while (selectedColors.length < 2) {
