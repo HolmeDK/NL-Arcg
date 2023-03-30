@@ -7,14 +7,14 @@ h1 {
 	margin-top: 1%;
 	font-size: max(3.6vw, 36px);
 	-webkit-text-stroke-width: max(.2vw,2px);
-    -webkit-text-stroke-color: rgb(251, 249, 249);
+    -webkit-text-stroke-color: rgb(27, 27, 27);
 }
 
 h3 {
 	margin: 1% 0 1% 0;
 	font-size: max(2vw, 20px);
 	-webkit-text-stroke-width: max(.1vw,1px);
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(64, 64, 64)
 }
 
 hr {
@@ -79,7 +79,7 @@ input[type=submit]:hover {
 
 .repoLink:hover {
 	cursor: pointer;
-	color: rgb(207, 205, 205);
+	color: rgb(0, 161, 254);
 	-webkit-text-stroke-width: max(.01vw,.1px);
     -webkit-text-stroke-color: white;
 }

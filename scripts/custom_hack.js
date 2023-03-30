@@ -205,7 +205,7 @@ function startHack(){
 
 			container.setAttribute('style', 'justify-content: space-evenly');
 			let audio = new Audio('assets/timer.wav');
-			audio.loop = true;
+			audio.loop = false;
 
 			function setEnd(middleText){
 				container.innerHTML = '';
