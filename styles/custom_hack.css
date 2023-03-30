@@ -63,7 +63,7 @@ input[type=submit]:hover {
     font-size: max(2.4vw, 24px);
     font-weight: 900;
     -webkit-text-stroke-width: max(.16vw,1.4px);
-  	-webkit-text-stroke-color: black;
+  	-webkit-text-stroke-color: rgb(254, 254, 254);
  	text-align: center;
   	margin: 0;
 }
@@ -84,14 +84,14 @@ input[type=submit]:hover {
 .parameter > label {
     font-size: max(1.8vw, 18px);
     -webkit-text-stroke-width: max(.08vw,.8px);
-  	-webkit-text-stroke-color: black;
+  	-webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 .parameter > input[type='number'] {
     color: white;
     padding: max(.5vw, 5px);
     width: 20%;
-    background-color: rgb(76,88,122);
+    background-color: rgb(51, 71, 125);
     font-size: max(1.5vw, 15px);
     border-radius: 10px;
     margin-left: 5%;
@@ -114,7 +114,7 @@ input[type=submit]:hover {
     text-align: center;
     font-size: max(3.5vw, 35px);
     -webkit-text-stroke-width: max(.05vw,.5px);
-    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-color: rgb(249, 249, 249);
 }
 
 .middleText.end {
@@ -122,7 +122,7 @@ input[type=submit]:hover {
 }
 
 #timerSection {
-    outline: solid 1px white;
+    outline: solid 1px rgb(251, 252, 253);
     width: 20%;
     text-align: center;
     font-size: max(2vw, 14px);
@@ -153,7 +153,7 @@ input[type=submit]:hover {
 }
 
 .digitPlace {
-    background-color: rgb(76,88,122);
+    background-color: rgb(59, 76, 124);
     color: white;
     line-height: 15.5vw;
     font-size: 7.5vw;
@@ -287,5 +287,5 @@ input[type=submit]:hover {
 }
 
 #answerInput::placeholder {
-    color: grey;
+    color: rgb(236, 236, 236);
 }
