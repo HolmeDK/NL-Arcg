@@ -24,11 +24,11 @@ hr {
 }
 
 #selection {
-	border: solid max(.1vw, 1px) rgb(32, 32, 32);
+	border: solid max(.1vw, 1px) rgb(0, 1, 14);
 	border-radius: 10px;
 	margin: auto;
 	margin-top: max(1%, 5px);
-	background-color: rgb(2, 107, 142);
+	background-color: rgb(39, 39, 39);
 	width: max(75%, 300px);
 	display: flex;
 	flex-flow: column;
