@@ -39,7 +39,7 @@ button, input[type=submit] {
 
 button:hover {
     color: darkgrey;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(210, 210, 210);
     cursor: pointer;
 }
 
