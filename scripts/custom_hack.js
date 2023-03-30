@@ -232,7 +232,7 @@ function startHack(){
 
 			function failHack(){
 				audio.pause();
-				setEnd('SYSTEM HACK FEJL');
+				setEnd('SYSTEM HACK FEJLET - Prøv igen');
 			}
 
 			let promptIndexes = [];
