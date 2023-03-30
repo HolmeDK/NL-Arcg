@@ -219,7 +219,7 @@ function startHack(){
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
-				retryButton.innerText = 'Retry';
+				retryButton.innerText = 'Prøv igen';
 				retryForm.append(retryButton);
 				let homeForm = document.createElement('form');
 				// homeForm.setAttribute('action', 'index.html');
