@@ -21,7 +21,7 @@ body {
 }
 
 button, input[type=submit] {
-    font-family: 'Bauhaus 93';
+    font-family: 'Arial';
     background-color: grey;
     color: white;
     font-size: max(1.8vw, 18px);
@@ -63,7 +63,7 @@ input[type=submit]:hover {
     font-size: max(2.4vw, 24px);
     font-weight: 900;
     -webkit-text-stroke-width: max(.16vw,1.4px);
-  	-webkit-text-stroke-color: black;
+  	/* -webkit-text-stroke-color: black; */
  	text-align: center;
   	margin: 0;
 }
