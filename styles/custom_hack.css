@@ -26,7 +26,7 @@ button, input[type=submit] {
     color: white;
     font-size: max(1.8vw, 18px);
     -webkit-text-stroke-width: max(.08vw,.8px);
-  	-webkit-text-stroke-color: black;
+  	/* -webkit-text-stroke-color: black; */
     width: max(12vw, 120px);
     padding: max(1vw, 10px);
     padding-top:max(.25vw,2.5px);
@@ -39,7 +39,7 @@ button, input[type=submit] {
 
 button:hover {
     color: darkgrey;
-    background-color: white;
+    background-color: rgb(53, 53, 53);
     cursor: pointer;
 }
 
@@ -199,7 +199,7 @@ input[type=submit]:hover {
     width: 15.5vw;
     text-align: center;
     -webkit-text-stroke-width: .3px;
-    -webkit-text-stroke-color: black;
+    /* -webkit-text-stroke-color: black; */
     letter-spacing: .5px;
     transform: translateY(-50%);    
 }
