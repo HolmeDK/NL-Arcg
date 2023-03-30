@@ -84,7 +84,7 @@ input[type=submit]:hover {
 .parameter > label {
     font-size: max(1.8vw, 18px);
     -webkit-text-stroke-width: max(.08vw,.8px);
-  	-webkit-text-stroke-color: black;
+  	/* -webkit-text-stroke-color: black; */
 }
 
 .parameter > input[type='number'] {
