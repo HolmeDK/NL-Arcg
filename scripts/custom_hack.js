@@ -221,9 +221,9 @@ function startHack(){
 				retryButton.className = 'retry';
 				retryButton.innerText = 'Retry';
 				retryForm.append(retryButton);
-				let homeForm = document.createElement('form');
-				homeForm.setAttribute('action', 'index.html');
-				container.append(homeForm);
+				// let homeForm = document.createElement('form');
+				// homeForm.setAttribute('action', 'index.html');
+				// container.append(homeForm);
 				/* let homeButton = document.createElement('button'); */
 /* 				homeButton.className = 'home';
 				homeButton.innerText = 'Tilbage'; */
