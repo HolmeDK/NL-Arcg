@@ -14,7 +14,7 @@
 }
 
 button, input[type=submit] {
-	font-family: 'Bauhaus 93';
+	font-family: 'Arial';
 	background-color: grey;
 	color: white;
 	font-size: max(1.8vw, 18px);
