@@ -224,10 +224,10 @@ function startHack(){
 				let homeForm = document.createElement('form');
 				homeForm.setAttribute('action', 'index.html');
 				container.append(homeForm);
-				let homeButton = document.createElement('button');
-				homeButton.className = 'home';
-				homeButton.innerText = 'Tilbage';
-				homeForm.append(homeButton);
+				/* let homeButton = document.createElement('button'); */
+/* 				homeButton.className = 'home';
+				homeButton.innerText = 'Tilbage'; */
+				// homeForm.append(homeButton);
 			}
 
 			function failHack(){
