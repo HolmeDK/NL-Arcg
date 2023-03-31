@@ -28,7 +28,7 @@ hr {
 	border-radius: 10px;
 	margin: auto;
 	margin-top: max(1%, 5px);
-	background-color: rgb(67, 94, 139);
+	background-color: rgb(26, 26, 26);
 	width: max(75%, 300px);
 	display: flex;
 	flex-flow: column;
