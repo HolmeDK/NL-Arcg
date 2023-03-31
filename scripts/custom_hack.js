@@ -95,14 +95,14 @@ puzzBlock.prototype.digitBlock = function() {
 puzzBlock.prototype.changeBlock = function() {
 
 	let colorPalette = {
-		'RED': '#7f0001',
-		'BLUE': '#2894f4',
-		'PURPLE': '#8e2fa0',
-		'YELLOW': '#ffec47',
+		'RØD': '#7f0001',
+		'BLÅ': '#2894f4',
+		'LILLA': '#8e2fa0',
+		'GUL': '#ffec47',
 		'ORANGE': '#ff9909',
-		'GREEN': '#50ac54',
-		'BLACK': 'BLACK',
-		'WHITE': 'WHITE',
+		'GRØN': '#50ac54',
+		'SORT': 'BLACK',
+		'HVID': 'WHITE',
 	};
 
 	this.block.innerHTML = '';
@@ -237,7 +237,7 @@ function startHack(){
 
 			let promptIndexes = [];
 			let answers = [];
-			let questions = ['Indtast '];
+			let questions = ['INDTAST '];
 
 			while (promptIndexes.length < promptCounter){
 				let randInd = Math.floor(Math.random()*blockCounter);
@@ -246,7 +246,7 @@ function startHack(){
 					answers.push(puzzBlocks[randInd].resolve());
 					questions.push(`${puzzBlocks[randInd].prompt} (${puzzBlocks[randInd].digit})`);
 					if (promptIndexes.length != promptCounter) {
-						questions.push(' AND ')
+						questions.push(' OG ')
 					}
 				}
 			}
