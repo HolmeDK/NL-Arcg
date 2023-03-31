@@ -138,7 +138,7 @@ function startHack(){
 	
 	container.innerHTML = '';
 	let warning = document.createElement('p');
-	warning.innerText = 'Get Ready!';
+	warning.innerText = 'Gør dig klar!';
 	warning.className = 'middleText';
 	container.append(warning);
 	
@@ -221,13 +221,13 @@ function startHack(){
 				retryButton.className = 'retry';
 				retryButton.innerText = 'Retry';
 				retryForm.append(retryButton);
-				let homeForm = document.createElement('form');
-				homeForm.setAttribute('action', 'index.html');
-				container.append(homeForm);
-				let homeButton = document.createElement('button');
-				homeButton.className = 'home';
-				homeButton.innerText = 'Home';
-				homeForm.append(homeButton);
+				// let homeForm = document.createElement('form');
+				// homeForm.setAttribute('action', 'index.html');
+				// container.append(homeForm);
+				// let homeButton = document.createElement('button');
+				// homeButton.className = 'home';
+				// homeButton.innerText = 'Home';
+				// homeForm.append(homeButton);
 			}
 
 			function failHack(){
