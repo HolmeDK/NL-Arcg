@@ -237,7 +237,7 @@ function startHack(){
 
 			let promptIndexes = [];
 			let answers = [];
-			let questions = ['Indtast '];
+			let questions = ['INDTAST '];
 
 			while (promptIndexes.length < promptCounter){
 				let randInd = Math.floor(Math.random()*blockCounter);
