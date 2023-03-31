@@ -95,14 +95,14 @@ puzzBlock.prototype.digitBlock = function() {
 puzzBlock.prototype.changeBlock = function() {
 
 	let colorPalette = {
-		'RØD': '#7f0001',
-		'BLÅ': '#2894f4',
-		'LILLA': '#8e2fa0',
-		'GUL': '#ffec47',
+		'RED': '#7f0001',
+		'BLUE': '#2894f4',
+		'PURPLE': '#8e2fa0',
+		'YELLOW': '#ffec47',
 		'ORANGE': '#ff9909',
-		'GRØN': '#50ac54',
-		'SORT': 'BLACK',
-		'HVID': 'WHITE',
+		'GREEN': '#50ac54',
+		'BLACK': 'BLACK',
+		'WHITE': 'WHITE',
 	};
 
 	this.block.innerHTML = '';
@@ -237,7 +237,7 @@ function startHack(){
 
 			let promptIndexes = [];
 			let answers = [];
-			let questions = ['INDTAST '];
+			let questions = ['Indtast '];
 
 			while (promptIndexes.length < promptCounter){
 				let randInd = Math.floor(Math.random()*blockCounter);
