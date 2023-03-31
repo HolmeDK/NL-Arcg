@@ -71,7 +71,7 @@ input[type=submit]:hover {
 }
 
 .repoLink {
-    color: white;
+    color: rgb(121, 121, 121);
     font-size: max(1.5vw, 15px);
     -webkit-text-stroke-width: max(.03vw,.3px);
     /* -webkit-text-stroke-color: black; */
