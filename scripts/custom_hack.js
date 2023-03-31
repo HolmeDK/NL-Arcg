@@ -12,8 +12,8 @@ let digits = [];
 
 function puzzBlock(){
 
-	let colors = ['RØD', 'BLÅ', 'LILLA', 'GUL', 'ORANGE', 'GRØN', 'SORT', 'HVID']
-	let shapes = ['FIRKANT', 'REKTANGEL', 'TREKANT', 'CIRKEL']
+	let colors = ['RED', 'BLUE', 'PURPLE', 'YELLOW', 'ORANGE', 'GREEN', 'BLACK', 'WHITE']
+	let shapes = ['SQUARE', 'RECTANGLE', 'TRIANGLE', 'CIRCLE']
 	let prompts = ['BAGGRUNDS FARVE', 'FORM', 'FORM FARVE', ' TEKST BAGGRUNDS FARVE', 'FARVE TEKST', 'FORM TEKST', 'NUMMER'];
 	
 	let selectedColors = [];
