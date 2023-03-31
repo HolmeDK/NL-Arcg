@@ -14,7 +14,7 @@ function puzzBlock(){
 
 	let colors = ['RED', 'BLUE', 'PURPLE', 'YELLOW', 'ORANGE', 'GREEN', 'BLACK', 'WHITE']
 	let shapes = ['SQUARE', 'RECTANGLE', 'TRIANGLE', 'CIRCLE']
-	let prompts = ['BAGGRUNDS FARVE', 'FORM', 'FORM FARVE', ' TEKST BAGGRUNDS FARVE', 'FARVE TEKST', 'FORM TEKST', 'NUMMER'];
+	let prompts = ['BACKGROUND COLOR', 'SHAPE', 'SHAPE COLOR', 'TEXT BACKGROUND COLOR', 'COLOR TEXT', 'SHAPE TEXT', 'NUMBER COLOR'];
 	
 	let selectedColors = [];
 	while (selectedColors.length < 2) {
@@ -138,7 +138,7 @@ function startHack(){
 	
 	container.innerHTML = '';
 	let warning = document.createElement('p');
-	warning.innerText = 'Gør dig klar!';
+	warning.innerText = 'Get Ready!';
 	warning.className = 'middleText';
 	container.append(warning);
 	
@@ -205,7 +205,7 @@ function startHack(){
 
 			container.setAttribute('style', 'justify-content: space-evenly');
 			let audio = new Audio('assets/timer.wav');
-			audio.loop = false;
+			audio.loop = true;
 
 			function setEnd(middleText){
 				container.innerHTML = '';
@@ -219,25 +219,25 @@ function startHack(){
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
-				retryButton.innerText = 'Prøv igen';
+				retryButton.innerText = 'Retry';
 				retryForm.append(retryButton);
 				let homeForm = document.createElement('form');
-				// homeForm.setAttribute('action', 'index.html');
-				// container.append(homeForm);
-				// let homeButton = document.createElement('button');
-				// homeButton.className = 'home';
-				// homeButton.innerText = 'Tilbage';
-				// homeForm.append(homeButton);
+				homeForm.setAttribute('action', 'index.html');
+				container.append(homeForm);
+				let homeButton = document.createElement('button');
+				homeButton.className = 'home';
+				homeButton.innerText = 'Home';
+				homeForm.append(homeButton);
 			}
 
 			function failHack(){
 				audio.pause();
-				setEnd('SYSTEM HACK FEJLET - Prøv igen');
+				setEnd('SYSTEM DID NOT ACCEPT YOUR ANSWERS');
 			}
 
 			let promptIndexes = [];
 			let answers = [];
-			let questions = ['INDTAST '];
+			let questions = ['ENTER THE '];
 
 			while (promptIndexes.length < promptCounter){
 				let randInd = Math.floor(Math.random()*blockCounter);
@@ -246,7 +246,7 @@ function startHack(){
 					answers.push(puzzBlocks[randInd].resolve());
 					questions.push(`${puzzBlocks[randInd].prompt} (${puzzBlocks[randInd].digit})`);
 					if (promptIndexes.length != promptCounter) {
-						questions.push(' OG ')
+						questions.push(' AND ')
 					}
 				}
 			}
@@ -256,7 +256,7 @@ function startHack(){
 				correctAnswer = answers.join(' ');
 				if (input.toUpperCase() == correctAnswer) {
 					if (correct == roundCounter) {
-						setEnd('SYSTEM ADGANG GODKENDT');
+						setEnd('SYSTEM BYPASSED');
 					} else {
 						correct += 1;
 						ongoingHack();
