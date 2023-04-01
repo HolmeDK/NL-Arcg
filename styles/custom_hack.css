@@ -5,9 +5,9 @@ body {
 }
 
 #hackBlock {
-    border: solid max(.1vw, 1px) black;
-    border-radius: 10px;
-    background-color: rgb(34,40,50);
+    border: solid max(.1vw, 1px) #242a35;
+    border-radius: 0px;
+    background-color: #242a35;
     width: max(97vw, 300px);
     height: auto;
     min-height: max(min(40vw, 90vh), 250px);
