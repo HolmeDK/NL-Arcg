@@ -8,7 +8,7 @@ body {
     border: solid max(.1vw, 1px) #242a35;
     border-radius: 0px;
     background-color: #242a35;
-    width: max(97vw, 300px);
+    width: max(97vw, 400px);
     height: auto;
     min-height: max(min(40vw, 90vh), 250px);
     display: flex;
