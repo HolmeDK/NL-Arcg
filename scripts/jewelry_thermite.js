@@ -19,7 +19,7 @@ function startCharge(){
 	let interval = document.getElementsByClassName('interval')[0].value;
 	container.innerHTML = '';
 	let warning = document.createElement('p');
-	warning.innerText = 'Get Ready!';
+	warning.innerText = 'Gør dig klar.';
 	warning.className = 'middleText';
 	container.append(warning);
 
@@ -69,16 +69,16 @@ function startCharge(){
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
-				retryButton.innerText = 'Retry';
+				retryButton.innerText = 'Prøv igen';
 				retryForm.append(retryButton);
-				let homeForm = document.createElement('form');
-				homeForm.className = 'homeForm';
-				homeForm.setAttribute('action', 'index.html');
-				container.append(homeForm);
-				let homeButton = document.createElement('button');
-				homeButton.className = 'home';
-				homeButton.innerText = 'Home';
-				homeForm.append(homeButton);
+				// let homeForm = document.createElement('form');
+				// homeForm.className = 'homeForm';
+				// homeForm.setAttribute('action', 'index.html');
+				// container.append(homeForm);
+				// let homeButton = document.createElement('button');
+				// homeButton.className = 'home';
+				// homeButton.innerText = 'Home';
+				// homeForm.append(homeButton);
 			}
 
 			function thermiteFailure(){
@@ -93,16 +93,16 @@ function startCharge(){
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
-				retryButton.innerText = 'Retry';
+				retryButton.innerText = 'Prøv igen';
 				retryForm.append(retryButton);
-				let homeForm = document.createElement('form');
-				homeForm.className = 'homeForm';
-				homeForm.setAttribute('action', 'index.html');
-				container.append(homeForm);
-				let homeButton = document.createElement('button');
-				homeButton.className = 'home';
-				homeButton.innerText = 'Home';
-				homeForm.append(homeButton);
+				// let homeForm = document.createElement('form');
+				// homeForm.className = 'homeForm';
+				// homeForm.setAttribute('action', 'index.html');
+				// container.append(homeForm);
+				// let homeButton = document.createElement('button');
+				// homeButton.className = 'home';
+				// homeButton.innerText = 'Home';
+				// homeForm.append(homeButton);
 			}
 
 			let correct = 0;
