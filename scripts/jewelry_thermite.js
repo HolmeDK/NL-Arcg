@@ -65,7 +65,7 @@ function startCharge(){
 				container.append(failureMessage);
 				let retryForm = document.createElement('form');
 				retryForm.className = 'retryForm';
-				retryForm.setAttribute('action', 'jewelry_thermite.html');
+				retryForm.setAttribute('action', 'thermite.html');
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
@@ -89,7 +89,7 @@ function startCharge(){
 				container.append(failureMessage);
 				let retryForm = document.createElement('form');
 				retryForm.className = 'retryForm';
-				retryForm.setAttribute('action', 'jewelry_thermite.html');
+				retryForm.setAttribute('action', 'thermite.html');
 				container.append(retryForm);
 				let retryButton = document.createElement('button');
 				retryButton.className = 'retry';
