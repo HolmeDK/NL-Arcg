@@ -61,7 +61,7 @@ function startCharge(){
 				container.innerHTML = '';
 				let failureMessage = document.createElement('p');
 				failureMessage.className = 'middleText fail';
-				failureMessage.innerText = 'SYSTEM BYPASSED';
+				failureMessage.innerText = 'SYSTEM ADGANG GODKENDT';
 				container.append(failureMessage);
 				let retryForm = document.createElement('form');
 				retryForm.className = 'retryForm';
@@ -85,7 +85,7 @@ function startCharge(){
 				container.innerHTML = '';
 				let failureMessage = document.createElement('p');
 				failureMessage.className = 'middleText fail';
-				failureMessage.innerText = 'SYSTEM DID NOT ACCEPT YOUR ANSWERS';
+				failureMessage.innerText = 'SYSTEMET HACK FEJLET';
 				container.append(failureMessage);
 				let retryForm = document.createElement('form');
 				retryForm.className = 'retryForm';
